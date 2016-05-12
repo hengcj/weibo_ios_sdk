@@ -9,4 +9,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries  = 'libWeiboSDK/libWeiboSDK.a'
   s.frameworks   = 'ImageIO', 'SystemConfiguration', 'CoreText', 'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
   s.libraries = 'sqlite3', 'z'
+  s.authors      = 'sina'
+  s.homepage     = 'http://weibo.com'
+  s.summary      = 'sina ios sdk
 end
